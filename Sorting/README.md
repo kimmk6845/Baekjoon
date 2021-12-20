@@ -69,5 +69,9 @@
 - d자리수의 숫자들에 대해 계수 정렬을 정렬할 때 각 자리수마다 O(N)시간이 걸리므로 전체는 O(dN)의 시간이 걸리지만 d를 상수 취급해 O(N)으로 여겨짐
 - 비교기반 정렬 알고리즘들에 비해 빠른 속도를 가진 것이 장점이지만, 전체 데이터의 개수만큼 기억장소와 진법 크기만큼의 기억장소가 추가적으로 필요하고 키가 몇 자리 수인지 이미 알고 있어야 한다는 조건이 있음
 
-![시간복잡도](https://user-images.githubusercontent.com/71704350/146729907-6bc301ef-44a8-4cdd-bb57-4ade820af8de.PNG)
+<div align="center">
+  
+  ![시간복잡도](https://user-images.githubusercontent.com/71704350/146729907-6bc301ef-44a8-4cdd-bb57-4ade820af8de.PNG)
+  
+</div>
 
