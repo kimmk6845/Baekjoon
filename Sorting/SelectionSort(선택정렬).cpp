@@ -34,28 +34,28 @@ void CheckSort(int a[], int n)
 	}
 
 	if (isSorted)
-		cout << "Á¤·Ä ¿Ï·á" << endl;
+		cout << "ì •ë ¬ ì™„ë£Œ" << endl;
 	else
-		cout << "Á¤·Ä ¿À·ù ¹ß»ı" << endl;
+		cout << "ì •ë ¬ ì˜¤ë¥˜ ë°œìƒ" << endl;
 }
 
 int main()
 {
-	random_device rd;	 // ½Ãµå°ªÀ» ¾ò±â À§ÇÑ random_device »ı¼º
-	mt19937 gen(rd());	// ³­¼ö »ı¼º ¿£Áø ÃÊ±âÈ­
+	random_device rd;	 // ì‹œë“œê°’ì„ ì–»ê¸° ìœ„í•œ random_device ìƒì„±
+	mt19937 gen(rd());	// ë‚œìˆ˜ ìƒì„± ì—”ì§„ ì´ˆê¸°í™”
 
 	int n = MAX;
 	int arr[MAX + 1];
-	uniform_int_distribution<int> dis(-99, 99);		// -99ºÎÅÍ 99±îÁö ±Õµî ºĞÆ÷ Á¤ÀÇ
+	uniform_int_distribution<int> dis(-99, 99);		// -99ë¶€í„° 99ê¹Œì§€ ê· ë“± ë¶„í¬ ì •ì˜
 	for (int i = 0; i < MAX; i++)
 		arr[i] = dis(gen);
 
-	cout << "# ·£´ı ÀÔ·Â°ª" << endl;
+	cout << "# ëœë¤ ì…ë ¥ê°’" << endl;
 	chrono::system_clock::time_point start = chrono::system_clock::now();
 	SelectionSort(arr, n);
 	chrono::duration<double> sec = chrono::system_clock::now() - start;
 
-	cout << "Á¤·ÄÇÏ´Âµ¥ °É¸° ½Ã°£ : " << sec.count() << endl;
+	cout << "ì •ë ¬í•˜ëŠ”ë° ê±¸ë¦° ì‹œê°„ : " << sec.count() << endl;
 	CheckSort(arr, n);
 
 }
