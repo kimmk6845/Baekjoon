@@ -10,6 +10,8 @@
 
 <div align = "center">
   
+  ![Greedy](https://user-images.githubusercontent.com/71704350/147804248-3dcb4357-6fd4-4cdd-a4bf-b48b72282636.PNG)
+  
   https://velog.io/@contea95/%ED%83%90%EC%9A%95%EB%B2%95%EA%B7%B8%EB%A6%AC%EB%94%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
   
 </div>
@@ -24,5 +26,7 @@
 
 
 - 그리디 알고리즘의 조건
+
 -- 탐욕적인 선택이 항상 안전해야 함. 즉, 항상 현재 상황에서 최선의 선택으로 최적해를 도출하는 상황이 나와야 함
+
 -- 최적 부분 구조 조건으로 문제에 대한 최종 해결 방법이 부분 문제에 대해서도 최적의 해결 방법
