@@ -7,7 +7,9 @@
 
 <div align = "center">
   
+  ![큐](https://user-images.githubusercontent.com/71704350/148779460-88696dd0-e1cc-4151-8777-5c35cc16c2e0.PNG)
   
+  https://velog.io/@gillog/%ED%81%90Que
 
 </div>
 
@@ -40,7 +42,9 @@
 
 <div align = "center">
   
+  ![덱](https://user-images.githubusercontent.com/71704350/148779492-6dfc07b6-5812-45b6-b530-169d59dc8c62.PNG)
   
+  https://codingexplore.tistory.com/42
   
 </div>
 
